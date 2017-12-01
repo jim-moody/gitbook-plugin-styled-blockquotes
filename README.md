@@ -36,10 +36,12 @@ The above example will produce a styled alert, with an icon:
 <div class="alert alert-info hints-alert">
   <div class="hints-icon"><i class="fa fa-info"></i></div>
   <div class="hints-container">
-    <p>Important info: this note needs to be highlighted</p>
+    <p>Some random stuff here</p>
   </div>
 </div>
 ```
+
+![Example Markdown](assets/example-markdown.png)
 
 
 ## Acknowledgements
