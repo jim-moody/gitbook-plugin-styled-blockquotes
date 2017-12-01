@@ -1,26 +1,27 @@
 {
-    "name": "gitbook-plugin-styled-blockquotes",
-    "description": "Styling blockquotes",
-    "main": "index.js",
-    "version": "0.0.1",
-    "engines": {
-        "gitbook": ">2.x.x"
-    },
-    "license": "Apache 2.0",
-    "homepage": "https://github.com/jim-moody/gitbook-plugin-styled-blockquotes",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/jim-moody/gitbook-plugin-styled-blockquotes.git"
-    },
-    "devDependencies": {
-        "eslint": "^4.12.1",
-        "eslint-config-standard": "^10.2.1",
-        "eslint-plugin-import": "^2.8.0",
-        "eslint-plugin-node": "^5.2.1",
-        "eslint-plugin-promise": "^3.6.0",
-        "eslint-plugin-standard": "^3.0.1"
-    },
-    "dependencies": {
-        "cheerio": "^1.0.0-rc.2"
-    }
+  "name": "gitbook-plugin-styled-blockquotes",
+  "description": "Styling blockquotes",
+  "main": "index.js",
+  "version": "0.0.1",
+  "engines": {
+    "gitbook": ">2.x.x"
+  },
+  "author": "Jim Moody <JimSMoody@gmail.com>",
+  "license": "Apache 2.0",
+  "homepage": "https://github.com/jim-moody/gitbook-plugin-styled-blockquotes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jim-moody/gitbook-plugin-styled-blockquotes.git"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  }
 }
