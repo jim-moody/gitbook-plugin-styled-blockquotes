@@ -14,7 +14,11 @@ const getStyle = $blockquote => {
     return
   }
   // get the user defined style
-  return $strong.text().toLowerCase()
+  const style = $strong.text().toLowerCase()
+  // we dont want to render the strong tag because it is just telling us what style to use
+  $strong.remove()
+
+  return style
 }
 const generateBlockquoteHtml = ({ style, icon, content }) => {
   return `<div class="alert alert-${style} hints-alert">
