@@ -41,13 +41,13 @@ module.exports = {
 
         // define elements needed for the blockquote html
         const style = getStyle($blockquote) || 'info'
-        const content = $blockquote.text()
+        const content = $blockquote.html()
         const icon = icons[style]
 
         const blockquoteHtml = generateBlockquoteHtml({ style, icon, content })
 
         // append the new blockquote (as a div) to the parent
-        $blockquote.parent().append(blockquoteHtml)
+        $blockquote.before(blockquoteHtml)
         // remove the old blockquote tag, so we dont get the default styling
         $blockquote.remove()
         // update the page content html with the new html
