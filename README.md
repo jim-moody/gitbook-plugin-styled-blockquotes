@@ -14,23 +14,27 @@ Add the below to your `book.json` file, then run `gitbook install` :
 
 ## Usage
 
-You can now provide styled blockquotes using the following syntax
+You can now style blockquotes using the following syntax
 
 ```md
 > **Info**
 > content
 ```
 
-Replace "Info" with any of the available styles to change the style
+Replace "Info" with any of the available styles to change the style (case does not matter)
 
-Available styles are:
+### Available Styles
 
 * `info` (default)
 * `tip`
 * `danger`
 * `working`
 
-The above example will produce a styled alert, with an icon:
+### HTML
+
+The above example will produce the following html
+
+#### Markup
 
 ```html
 <div class="alert alert-info hints-alert">
@@ -41,8 +45,9 @@ The above example will produce a styled alert, with an icon:
 </div>
 ```
 
-![Example Markdown](https://user-images.githubusercontent.com/26190589/33501641-4fd61e00-d6ab-11e7-9b71-b11441d9c55c.png)
+#### Rendered
 
+![Example Markdown](https://user-images.githubusercontent.com/26190589/33501641-4fd61e00-d6ab-11e7-9b71-b11441d9c55c.png)
 
 ## Acknowledgements
 
