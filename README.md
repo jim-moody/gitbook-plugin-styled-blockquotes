@@ -41,7 +41,7 @@ The above example will produce a styled alert, with an icon:
 </div>
 ```
 
-![Example Markdown](assets/example-markdown.png)
+![Example Markdown](https://user-images.githubusercontent.com/26190589/33501641-4fd61e00-d6ab-11e7-9b71-b11441d9c55c.png)
 
 
 ## Acknowledgements
