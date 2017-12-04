@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering blockquotes with and without styling should return an unchanged blockquote when the defined style is invalid 1`] = `
+"<blockquote>
+<p><strong>warning</strong>
+content</p>
+</blockquote>"
+`;
+
+exports[`Rendering blockquotes with and without styling should return an unchanged blockquote when there is no style defined 1`] = `
+"<blockquote>
+<p>content</p>
+</blockquote>"
+`;
+
+exports[`Rendering blockquotes with and without styling should return correctly rendered html when the defined style is danger 1`] = `
+"<div class=\\"alert alert-danger hints-alert\\"><div class=\\"hints-icon\\"><i class=\\"fa \\"></i></div><div class=\\"hints-container\\">
+<p>
+content</p>
+</div></div>"
+`;
+
+exports[`Rendering blockquotes with and without styling should return correctly rendered html when the defined style is info 1`] = `
+"<div class=\\"alert alert-info hints-alert\\"><div class=\\"hints-icon\\"><i class=\\"fa \\"></i></div><div class=\\"hints-container\\">
+<p> 
+content</p>
+</div></div>"
+`;
+
+exports[`Rendering blockquotes with and without styling should return correctly rendered html when the defined style is info with icon 1`] = `
+"<div class=\\"alert alert-info hints-alert\\"><div class=\\"hints-icon\\"><i class=\\"fa fa fa-info-circle\\"></i></div><div class=\\"hints-container\\">
+<p>
+content</p>
+</div></div>"
+`;
+
+exports[`Rendering blockquotes with and without styling should return correctly rendered html when the defined style is success 1`] = `
+"<div class=\\"alert alert-success hints-alert\\"><div class=\\"hints-icon\\"><i class=\\"fa \\"></i></div><div class=\\"hints-container\\">
+<p>
+content</p>
+</div></div>"
+`;
+
+exports[`Rendering blockquotes with and without styling should return correctly rendered html when the defined style is tip 1`] = `
+"<div class=\\"alert alert-warning hints-alert\\"><div class=\\"hints-icon\\"><i class=\\"fa \\"></i></div><div class=\\"hints-container\\">
+<p>
+content</p>
+</div></div>"
+`;
