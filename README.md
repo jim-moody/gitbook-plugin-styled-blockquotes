@@ -28,7 +28,9 @@ Replace "Info" with any of the available styles to change the style (case does n
 * `info` (default)
 * `tip`
 * `danger`
-* `working`
+* `success`
+
+Append `-icon` to add the default icon for that type
 
 ### HTML
 
