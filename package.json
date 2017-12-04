@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-styled-blockquotes",
   "description": "Styling blockquotes",
   "main": "index.js",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "engines": {
     "gitbook": ">2.x.x"
   },
