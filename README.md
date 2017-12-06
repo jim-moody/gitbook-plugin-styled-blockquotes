@@ -1,8 +1,8 @@
 # Styled hint blocks in your docs
 
-This plugins requires gitbook `>=2.0.0`.
+Check out our [Examples](https://jim-moody.github.io/gitbook-plugin-styled-blockquotes) to see exactly what this plugin provides!
 
-## Install
+## Installation
 
 Add the below to your `book.json` file, then run `gitbook install` :
 
@@ -14,42 +14,28 @@ Add the below to your `book.json` file, then run `gitbook install` :
 
 ## Usage
 
-You can now style blockquotes using the following syntax
+It is highly recommended that you check out our [Examples]() gitbook to see clear examples of how to use this plugin. If you *really* don't want to click on that link, you can check out this basic example below :smile:
+
+**Markdown**
 
 ```md
-> **Info**
-> content
+> **info-icon**
+> Content goes here
 ```
 
-Replace "Info" with any of the available styles to change the style (case does not matter)
+**Rendered HTML**
+![Example Markdown](https://user-images.githubusercontent.com/26190589/33686292-6cb04078-daa2-11e7-9be2-0e0eef05f4dc.png)
+
+**Note:** Replace "info-icon" with any of the [available styles](#available-styles) to change the style (case does not matter)
 
 ### Available Styles
 
-* `info` (default)
-* `tip`
-* `danger`
-* `success`
+* `info-icon`
+* `tip-icon`
+* `danger-icon`
+* `success-icon`
 
-Append `-icon` to add the default icon for that type
-
-### HTML
-
-The above example will produce the following html
-
-#### Markup
-
-```html
-<div class="alert alert-info hints-alert">
-  <div class="hints-icon"><i class="fa fa-info"></i></div>
-  <div class="hints-container">
-    <p>Some random stuff here</p>
-  </div>
-</div>
-```
-
-#### Rendered
-
-![Example Markdown](https://user-images.githubusercontent.com/26190589/33501641-4fd61e00-d6ab-11e7-9b71-b11441d9c55c.png)
+Remove `-icon` to add the styling without the icon
 
 ## Acknowledgements
 

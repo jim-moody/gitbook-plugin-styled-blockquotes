@@ -1,6 +1,7 @@
 {
   "name": "gitbook-plugin-styled-blockquotes",
-  "description": "Styling blockquotes",
+  "description":
+    "This plugin allows you to add styling to your blockquotes. Available styles include info, tip, danger, success.",
   "main": "index.js",
   "version": "0.1.1",
   "engines": {
@@ -11,7 +12,8 @@
   },
   "scripts": {
     "test": "jest",
-    "lint": "eslint **/*.js"
+    "lint": "eslint **/*.js",
+    "docs:build": "gitbook install examples && gitbook build examples docs"
   },
   "author": "Jim Moody <JimSMoody@gmail.com>",
   "homepage": "https://github.com/jim-moody/gitbook-plugin-styled-blockquotes",

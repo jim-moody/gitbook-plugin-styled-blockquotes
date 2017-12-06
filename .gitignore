@@ -1,2 +1,5 @@
 # Node Modules
 node_modules
+
+# Gitbook build (during local serving)
+examples/_book
