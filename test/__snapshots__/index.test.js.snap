@@ -14,14 +14,14 @@ exports[`Rendering blockquotes with and without styling should return an unchang
 `;
 
 exports[`Rendering blockquotes with and without styling should return correctly rendered html when the defined style is danger 1`] = `
-"<div class=\\"alert alert-danger hints-alert\\"><div class=\\"hints-icon\\"><i class=\\"fa \\"></i></div><div class=\\"hints-container\\">
+"<div class=\\"alert alert-danger hints-alert\\"><div class=\\"hints-container\\">
 <p>
 content</p>
 </div></div>"
 `;
 
 exports[`Rendering blockquotes with and without styling should return correctly rendered html when the defined style is info 1`] = `
-"<div class=\\"alert alert-info hints-alert\\"><div class=\\"hints-icon\\"><i class=\\"fa \\"></i></div><div class=\\"hints-container\\">
+"<div class=\\"alert alert-info hints-alert\\"><div class=\\"hints-container\\">
 <p> 
 content</p>
 </div></div>"
@@ -35,14 +35,14 @@ content</p>
 `;
 
 exports[`Rendering blockquotes with and without styling should return correctly rendered html when the defined style is success 1`] = `
-"<div class=\\"alert alert-success hints-alert\\"><div class=\\"hints-icon\\"><i class=\\"fa \\"></i></div><div class=\\"hints-container\\">
+"<div class=\\"alert alert-success hints-alert\\"><div class=\\"hints-container\\">
 <p>
 content</p>
 </div></div>"
 `;
 
 exports[`Rendering blockquotes with and without styling should return correctly rendered html when the defined style is tip 1`] = `
-"<div class=\\"alert alert-warning hints-alert\\"><div class=\\"hints-icon\\"><i class=\\"fa \\"></i></div><div class=\\"hints-container\\">
+"<div class=\\"alert alert-warning hints-alert\\"><div class=\\"hints-container\\">
 <p>
 content</p>
 </div></div>"

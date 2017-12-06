@@ -44,10 +44,17 @@ const getStyleName = $blockquote => {
 }
 const getStyleOption = styleName => styleOptions[styleName]
 
+const getIconHtml = (icon) => {
+  if (!icon) {
+    return ''
+  }
+  return `<div class="hints-icon"><i class="fa ${icon}"></i></div>`
+}
 const generateBlockquoteHtml = ({ style, icon = '', content }) => {
+  const iconHtml = getIconHtml(icon)
   return (
     `<div class="alert alert-${style} hints-alert">` +
-    `<div class="hints-icon"><i class="fa ${icon}"></i></div>` +
+    `${iconHtml}` +
     `<div class="hints-container">${content}</div>` +
     `</div>`
   )
