@@ -7,3 +7,7 @@
 .hints-container {
     display: table-cell;
 }
+
+.hints-container > p {
+    margin-bottom: 0;
+}
