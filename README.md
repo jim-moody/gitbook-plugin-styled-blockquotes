@@ -14,7 +14,7 @@ Add the below to your `book.json` file, then run `gitbook install` :
 
 ## Usage
 
-It is highly recommended that you check out our [Examples]() gitbook to see clear examples of how to use this plugin. If you *really* don't want to click on that link, you can check out this basic example below :smile:
+It is highly recommended that you check out our [Examples](https://jim-moody.github.io/gitbook-plugin-styled-blockquotes) gitbook to see clear examples of how to use this plugin. If you *really* don't want to click on that link, you can check out this basic example below :smile:
 
 **Markdown**
 
