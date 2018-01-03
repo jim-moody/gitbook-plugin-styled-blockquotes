@@ -1,17 +1,16 @@
 {
   "name": "gitbook-plugin-styled-blockquotes",
-  "description": "This plugin allows you to add styling to your blockquotes. Available styles include info, tip, danger, success.",
+  "description":
+    "This plugin allows you to add styling to your blockquotes. Available styles include info, tip, danger, success.",
   "main": "lib/index.js",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "engines": {
     "gitbook": ">2.x.x"
   },
   "jest": {
     "verbose": true
   },
-  "files": [
-    "lib"
-  ],
+  "files": ["lib", "assets"],
   "scripts": {
     "test": "jest",
     "lint": "eslint **/*.js",
