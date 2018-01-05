@@ -15,21 +15,21 @@ These are all the styles available currently. More may be added in the future!
 **Icon**
 
 ```markdown
-> **info-icon**
+> **info**
 > Content goes here
 ```
 
-> **info-icon**
+> **info**
 > Content goes here
 
 **No Icon**
 
 ```markdown
-> **info**
+> **info no-icon**
 > Content goes here
 ```
 
-> **info**
+> **info no-icon**
 > Content goes here
 
 ### Tip
@@ -37,21 +37,21 @@ These are all the styles available currently. More may be added in the future!
 **Icon**
 
 ```markdown
-> **tip-icon**
+> **tip**
 > Content goes here
 ```
 
-> **tip-icon**
+> **tip**
 > Content goes here
 
 **No Icon**
 
 ```markdown
-> **tip**
+> **tip no-icon**
 > Content goes here
 ```
 
-> **tip**
+> **tip no-icon**
 > Content goes here
 
 ### Danger
@@ -59,21 +59,21 @@ These are all the styles available currently. More may be added in the future!
 **Icon**
 
 ```markdown
-> **danger-icon**
+> **danger**
 > Content goes here
 ```
 
-> **danger-icon**
+> **danger**
 > Content goes here
 
 **No Icon**
 
 ```markdown
-> **danger**
+> **danger no-icon**
 > Content goes here
 ```
 
-> **danger**
+> **danger no-icon**
 > Content goes here
 
 ### Success
@@ -81,21 +81,21 @@ These are all the styles available currently. More may be added in the future!
 **Icon**
 
 ```markdown
-> **success-icon**
+> **success**
 > Content goes here
 ```
 
-> **success-icon**
+> **success**
 > Content goes here
 
 **No Icon**
 
 ```markdown
-> **success**
+> **success no-icon**
 > Content goes here
 ```
 
-> **success**
+> **success no-icon**
 > Content goes here
 
 ## Markdown Within Blockquote
@@ -106,22 +106,28 @@ You can still use standard markdown inside a blockquote and it will render as ex
 
 ```markdown
 > **info**
+>
 > ### Header
+>
 > Content here
 ```
 
-> **info**
+> **info no-icon**
+>
 > ### Header
+>
 > Content here
 
 **List**
 
 ```markdown
 > **info**
+>
 > * Item 1
 > * Item 2
 ```
 
-> **info**
+> **info no-icon**
+>
 > * Item 1
 > * Item 2

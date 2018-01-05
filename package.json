@@ -3,7 +3,7 @@
   "description":
     "This plugin allows you to add styling to your blockquotes. Available styles include info, tip, danger, success.",
   "main": "lib/index.js",
-  "version": "0.1.4",
+  "version": "1.1.4",
   "engines": {
     "gitbook": ">2.x.x"
   },

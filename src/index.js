@@ -1,35 +1,5 @@
+import { styleOptions } from './styleOptions'
 var cheerio = require('cheerio')
-
-const styleOptions = {
-  'info-icon': {
-    icon: 'fa fa-info-circle',
-    style: 'info'
-  },
-  info: {
-    style: 'info'
-  },
-  'tip-icon': {
-    icon: 'fa fa-file-text-o',
-    style: 'warning'
-  },
-  tip: {
-    style: 'warning'
-  },
-  'danger-icon': {
-    icon: 'fa fa-exclamation-circle',
-    style: 'danger'
-  },
-  danger: {
-    style: 'danger'
-  },
-  'success-icon': {
-    icon: 'fa fa-check-circle',
-    style: 'success'
-  },
-  success: {
-    style: 'success'
-  }
-}
 
 const getStyleName = $blockquote => {
   const $strong = $blockquote.find('p:first-child > strong:first-child')
@@ -44,7 +14,7 @@ const getStyleName = $blockquote => {
 }
 const getStyleOption = styleName => styleOptions[styleName]
 
-const getIconHtml = (icon) => {
+const getIconHtml = icon => {
   if (!icon) {
     return ''
   }

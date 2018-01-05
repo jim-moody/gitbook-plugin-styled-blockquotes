@@ -14,12 +14,12 @@ Add the below to your `book.json` file, then run `gitbook install` :
 
 ## Usage
 
-It is highly recommended that you check out our [Examples](https://jim-moody.github.io/gitbook-plugin-styled-blockquotes) gitbook to see clear examples of how to use this plugin. If you *really* don't want to click on that link, you can check out this basic example below :smile:
+It is highly recommended that you check out our [Examples](https://jim-moody.github.io/gitbook-plugin-styled-blockquotes) gitbook to see clear examples of how to use this plugin. If you _really_ don't want to click on that link, you can check out this basic example below :smile:
 
 **Markdown**
 
 ```md
-> **info-icon**
+> **info**
 > Content goes here
 ```
 
@@ -30,12 +30,12 @@ It is highly recommended that you check out our [Examples](https://jim-moody.git
 
 ### Available Styles
 
-* `info-icon`
-* `tip-icon`
-* `danger-icon`
-* `success-icon`
+* `info`
+* `tip`
+* `danger`
+* `success`
 
-Remove `-icon` to add the styling without the icon
+Append `no-icon` to add the styling without the icon
 
 ## Acknowledgements
 

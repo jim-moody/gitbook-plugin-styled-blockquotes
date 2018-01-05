@@ -12,7 +12,6 @@
     "jest/globals": true
   },
   "rules": {
-    "semi": 2,
     "no-tabs": 0
   }
 }
